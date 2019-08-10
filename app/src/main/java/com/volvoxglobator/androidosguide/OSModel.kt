@@ -8,33 +8,33 @@ data class OSModel(val img: Int,
 
 
 val os_list = listOf(
-    OSModel(R.drawable.os_cupcake, "Cupcake", R.string.desc_cupcake, R.string.api_cupcake),
-    OSModel(R.drawable.os_donut, "Donut", R.string.desc_donut, R.string.api_donut),
-    OSModel(R.drawable.os_eclair, "Eclair", R.string.desc_eclair, R.string.api_eclair),
-    OSModel(R.drawable.os_froyo, "Froyo", R.string.desc_froyo, R.string.api_froyo),
+    OSModel(R.drawable.os_cupcake, "Cupcake", R.string.api_cupcake, R.string.desc_cupcake),
+    OSModel(R.drawable.os_donut, "Donut", R.string.api_donut, R.string.desc_donut),
+    OSModel(R.drawable.os_eclair, "Eclair", R.string.api_eclair, R.string.desc_eclair),
+    OSModel(R.drawable.os_froyo, "Froyo", R.string.api_froyo, R.string.desc_froyo),
     OSModel(
         R.drawable.os_gingerbread,
         "Gingerbread",
-        R.string.desc_gingerbread,
-        R.string.api_gingerbread
+        R.string.api_gingerbread,
+        R.string.desc_gingerbread
     ),
     OSModel(R.drawable.os_honeycomb, "Honeycomb", R.string.desc_honeycomb, R.string.api_honeycomb),
     OSModel(
         R.drawable.os_icecreamsandwich,
         "Ice Cream Sandwich",
-        R.string.desc_ics,
-        R.string.api_ics
+        R.string.api_ics,
+        R.string.desc_ics
     ),
-    OSModel(R.drawable.os_jellybean, "Jellybean", R.string.desc_jellybean, R.string.api_jellybean),
-    OSModel(R.drawable.os_kitkat, "Kitkat", R.string.desc_kitkat, R.string.api_kitkat),
-    OSModel(R.drawable.os_lolipop, "Lollipop", R.string.desc_lollipop, R.string.api_lollipop),
+    OSModel(R.drawable.os_jellybean, "Jellybean", R.string.api_jellybean, R.string.desc_jellybean),
+    OSModel(R.drawable.os_kitkat, "Kitkat", R.string.api_kitkat, R.string.desc_kitkat),
+    OSModel(R.drawable.os_lolipop, "Lollipop", R.string.api_lollipop, R.string.desc_lollipop),
     OSModel(
         R.drawable.os_marsmallow,
         "Marsmallow",
-        R.string.desc_marsmallow,
-        R.string.api_marsmallow
+        R.string.api_marsmallow,
+        R.string.desc_marsmallow
     ),
-    OSModel(R.drawable.os_nougat, "Nougat", R.string.desc_nougat, R.string.api_nougat),
-    OSModel(R.drawable.os_oreo, "Oreo", R.string.desc_oreo, R.string.api_oreo),
-    OSModel(R.drawable.os_pie, "Pie", R.string.desc_pie, R.string.api_pie)
+    OSModel(R.drawable.os_nougat, "Nougat", R.string.api_nougat, R.string.desc_nougat),
+    OSModel(R.drawable.os_oreo, "Oreo", R.string.api_oreo, R.string.desc_oreo),
+    OSModel(R.drawable.os_pie, "Pie", R.string.api_pie, R.string.desc_pie)
 )

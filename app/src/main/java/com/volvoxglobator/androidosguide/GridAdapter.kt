@@ -6,7 +6,8 @@ import android.view.ViewGroup
 import android.widget.ImageView
 import androidx.recyclerview.widget.RecyclerView
 
-class GridAdapter : RecyclerView.Adapter<GridViewHolder>() {
+class GridAdapter(private val clickListener: OnClickListener) :
+    RecyclerView.Adapter<GridViewHolder>() {
 
     val data = os_list
 
@@ -24,7 +25,14 @@ class GridAdapter : RecyclerView.Adapter<GridViewHolder>() {
         val objectItem = data[position]
 
         holder.osImage.setImageResource(objectItem.img)
+        holder.itemView.setOnClickListener {
+            clickListener.onClick(objectItem)
+        }
     }
+}
+
+class OnClickListener(val clickListener: (OSModel) -> Unit) {
+    fun onClick(osModel: OSModel) = clickListener(osModel)
 }
 
 class GridViewHolder(v: View) : RecyclerView.ViewHolder(v) {
