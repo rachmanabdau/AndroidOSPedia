@@ -9,8 +9,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".OsDetailActivity"></activity>
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".ProfileActivity"
+            android:screenOrientation="sensorPortrait"></activity>
+        <activity
+            android:name=".OsDetailActivity"
+            android:screenOrientation="sensorPortrait" />
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="sensorPortrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

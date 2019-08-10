@@ -10,6 +10,9 @@ class OsDetailActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_os_detail)
+        if (null != actionBar) {
+            actionBar!!.title = "Detail"
+        }
 
         val osImage: ImageView = findViewById(R.id.os_image)
         val osName: TextView = findViewById(R.id.os_name)
