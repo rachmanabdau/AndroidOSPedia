@@ -1,3 +1,33 @@
 <resources>
     <string name="app_name">Android OS Pedia</string>
+
+    <string name="desc_cupcake">Cupcake untuk pertama kalinya menghadirkan on-screen keyboard, menggantikan papan ketik fisik yang sebelumnya dipakai oleh perangkat Android.</string>
+    <string name="desc_donut">Donuts menandai titik dimana Android sudah bisa disematkan dalam di perangkat dengan beberapa ukuran layar yang berbeda. Selain itu, untuk memudahkan pengguna dalam menjelajahi antarmuka ponsel, muncul fitur baru berupa search box yang ada dalam home screen.</string>
+    <string name="desc_eclair">Versi Android selanjutnya, yang bernama Eclair, untuk pertama kalinya membawa fitur baru untuk mempermudah pengguna dalam bepergian, yakni Google Map. Fitur peta yang kelak sangat populer itu datang lengkap dengan turn-by-turn navigation dan panduan suara (voice guidance) yang masih ada hingga sekarang.</string>
+    <string name="desc_froyo">Hadir pada 2010, Android Froyo melakukan debutnya pada ponsel seri Nexus pertama besutan Google, Nexus One. Froyo kebanyakan memoles fungsi Android yang sudah ada sebelumnya, seperti dukungan homescreen yang bisa ditambahkan hingga 5 buah.</string>
+    <string name="desc_gingerbread">Masih pada 2010, Android Gingerbread menambah dukungan kamera depan sehingga pengguna perangkat Android pun kini bisa menjepret selfie yang trennya makin marak.</string>
+    <string name="desc_honeycomb">Honeycomb mengusung beberapa perubahan dibanding OS Android untuk smartphone, seperti warna tema biru dan preview untuk widget.</string>
+    <string name="desc_ics">Ice Cream Sandwich turut menghadirkan sejumlah fitur baru seperti face unlock, rekaman penggunaan data internet, aplikasi e-mail dan kalender baru, berikut dukungan Near Field Communication.</string>
+    <string name="desc_jellybean">Di sinilah Google mulai menerapkan teknologi asisten digital Google Now yang bisa diakses dengan sapuan jari dari home screen.</string>
+    <string name="desc_kitkat">Tampilan Kitkat dipermak supaya tampak lebih modern, dengan akses warna putih dan desain ulang aplikasi-apliaksi bawaaan dengan warna lebih terang.</string>
+    <string name="desc_lollipop">Di OS inilah Google mulai menerapkan filosofi desain antarmuka Material Design yang serba flat di Android.</string>
+    <string name="desc_marsmallow">Android Marshmallow (versi 6.0) tiba di tahun 2015 dan membawa sejumah perubahan tampilan lebih jauh. Menu app, misalnya dirombak dan kini menggunakan later belakang putih, bukan hitam. Ada juga search bar untuk mempermudah pengguna menemukan aplikasi yang dicari.</string>
+    <string name="desc_nougat">Google menambahkan dukungan multi-window sehingga pengguna bisa menjalankan dua aplikasi secara bersamaan dalam jendela terpisah yang diposisikan secara berdampingan.</string>
+    <string name="desc_oreo">Android Oreo yang dirilis pada 2017 menambah lebih banyak fitur multi-tasking seperti Picture-in-Picture. Bagian notifikasi ikut dirombak. Pengguna bisa mengatur notifikasi mana saja yang akan ditampilkan dan apa yang dilakukan perangkat saat menyuguhkannya.</string>
+    <string name="desc_pie">Inilah Android teranyar yang baru saja diresmikan pada Agustus lalu. Android Pie mengganti tiga tombol navigasi dengan tombol tunggal berbentuk elips.</string>
+
+    <string name="api_cupcake">3</string>
+    <string name="api_donut">4</string>
+    <string name="api_eclair">5, 6, 7</string>
+    <string name="api_froyo">8</string>
+    <string name="api_gingerbread">9, 10</string>
+    <string name="api_honeycomb">11, 12, 13</string>
+    <string name="api_ics">14, 15</string>
+    <string name="api_jellybean">16, 17, 18</string>
+    <string name="api_kitkat">19</string>
+    <string name="api_lollipop">21</string>
+    <string name="api_marsmallow">23</string>
+    <string name="api_nougat">25</string>
+    <string name="api_oreo">26</string>
+    <string name="api_pie">28</string>
 </resources>
